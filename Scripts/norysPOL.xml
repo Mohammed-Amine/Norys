@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<norys>
+	<commonelements>
+		<element name="divHeaderContent">
+			Tylkowo k/Olsztyna | Telefon: +48 89 621 2380 | Fax: +48 89 621 2923 | e-mail: norys.kaczmarski.ryszard@neostrada.pl
+		</element>
+		<element name="aAboutUs">
+			O firmie
+		</element>
+		<element name="aOffer">
+			Oferta
+		</element>
+		<element name="aContact">
+			Kontakt
+		</element>
+	</commonelements>
+	<pages>
+		<page name="index.html">
+			<element name="divPageTitle">
+				O firmie
+			</element>
+			<element name="divPageContent">
+				Firma istnieje od 1979 r. Dzięki Państwa zaufaniu i zaangażowaniu całej załogi,
+				jesteśmy jedną z większych firm, produkującą nogi foteli gięto-klejonych na terenie
+				województwa warmińsko-mazurskiego.
+			</element>
+			<element name="divPageContent">
+				Nasze produkty wykonane są z najwyższej jakości drewna bukowego. Łącząc tradycję
+				z nowoczesnością poszerzamy naszą ofertę o coraz nowsze wzory, które zyskują uznanie
+				na terenie całego kraju.
+			</element>
+			<element name="divPageContent">
+				Produkowane przez nas nogi foteli cechuje lekkość i wyjątkowa trwałość. Zapewniamy
+				niski poziom cen naszych produktów, oferując jednocześnie bardzo wysoką jakość.
+		</element>
+		</page>
+		<page name="oferta.html">
+			<element name="divPageTitle">
+				Oferta
+			</element>
+			<element name="aOptionOne">
+				Boki kanap
+			</element>
+			<element name="aOptionTwo">
+				Siedziska
+			</element>
+			<element name="aOptionThree">
+				Stelaże foteli
+			</element>
+		</page>
+		<page name="boki.html">
+			<element name="divPageTitle">
+				Oferta
+			</element>
+			<element name="divOptionOne">
+				Boki kanap
+			</element>
+			<element name="divOptionTwo">
+				Boki kanap
+			</element>
+		</page>
+		<page name="siedziska.html">
+			<element name="divPageTitle">
+				Oferta
+			</element>
+			<element name="divOptionOne">
+				Ramka fotela drewniana
+			</element>
+			<element name="divOptionTwo">
+				Ramka fotela drewniana
+			</element>
+		</page>
+		<page name="stelaze.html">
+			<element name="divPageTitle">
+				Oferta
+			</element>
+			<element name="divOptionOne">
+				Stelaż fotela TOFI I
+			</element>
+			<element name="divOptionTwo">
+				Stelaż fotela TOFI II
+			</element>
+			<element name="divOptionThree">
+				Stelaż fotela II B
+			</element>
+			<element name="divOptionFour">
+				Stelaż fotela i kanapy OMEGA
+			</element>
+			<element name="divOptionFour">
+				Wzór zastrzeżony w Urzędzie Patentowym, chroniony prawem
+			</element>
+			<element name="divOptionFive">
+				Noga fotela OMEGA
+			</element>
+			<element name="divOptionFive">
+				Wzór zastrzeżony w Urzędzie Patentowym, chroniony prawem
+			</element>
+			<element name="divOptionSix">
+				Stelaż fotela FENIKS
+			</element>
+			<element name="divOptionSix">
+				Wzór zastrzeżony w Urzędzie Patentowym, chroniony prawem
+			</element>
+			<element name="divOptionSeven">
+				Noga fotela FENIKS II
+			</element>
+			<element name="divOptionSeven">
+				Wzór zastrzeżony w Urzędzie Patentowym, chroniony prawem
+			</element>
+		</page>
+		<page name="kontakt.html">
+			<element name="divPageTitle">
+				Kontakt
+			</element>
+			<element name="divTelephone">
+				Telefon:
+			</element>
+			<element name="divMobile">
+				Tel. kom.:
+			</element>
+			<element name="divAddress">
+				Adres:
+			</element>
+			<element name="divContactForm">
+				Formularz Kontaktowy
+			</element>
+			<element name="divYourEmail">
+				Twój e-mail:
+			</element>
+			<element name="divSubject">
+				Temat:
+			</element>
+			<element name="divMessage">
+				Treść:
+			</element>
+			<element name="btnSend">
+				Wyślij
+			</element>
+	</page>
+		</pages>
+	</norys>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<norys>
+	<commonelements>
+		<element name="divHeaderContent">
+			09486038Tylkowo k/Olsztyna | Telefon: +48 89 621 2380 | Fax: +48 89 621 2923 | e-mail: norys.kaczmarski.ryszard@neostrada.pl
+		</element>
+		<elements name="aAboutUs">
+			O firmie
+		</elements>
+		<elements name="aOffer">
+			Oferta
+		</elements>
+		<elements name="aContact">
+			Kontakt
+		</elements>
+	</commonelements>
+	<pages>
+		<page name="index.html">
+			<elements name="divPageTitle">
+				O firmie
+			</elements>
+			<elements name="divPageContent">
+				<p>
+				Firma istnieje od 1979 r. Dzięki Państwa zaufaniu i zaangażowaniu całej załogi,
+				jesteśmy jedną z większych firm, produkującą nogi foteli gięto-klejonych na terenie
+				województwa warmińsko-mazurskiego.</p>
+				<p>
+					Nasze produkty wykonane są z najwyższej jakości drewna bukowego. Łącząc tradycję
+					z nowoczesnością poszerzamy naszą ofertę o coraz nowsze wzory, które zyskują uznanie
+					na terenie całego kraju.
+				</p>
+				<p>
+					Produkowane przez nas nogi foteli cechuje lekkość i wyjątkowa trwałość. Zapewniamy
+					niski poziom cen naszych produktów, oferując jednocześnie bardzo wysoką jakość.
+				</p>
+			</elements>
+		</page>
+	</pages>
+</norys>

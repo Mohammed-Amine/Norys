@@ -1,0 +1,273 @@
+﻿body 
+{
+    background-image: url("../Images/bg8.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+    color:  #5f3215;
+}
+
+.header
+{
+    padding:10px;
+    background-image: url("../Images/fade3.png");
+    height: 20px;
+    top:0px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid white;
+    color: White;
+    z-index:1;
+}
+
+.logo
+{
+    background-image: url("../Images/logo5.jpg");
+    height:100px;
+    width: 300px;
+    position:absolute;
+    margin: -11px 0px;
+    border: 1px solid black;    
+    z-index:1;
+}
+
+.headerContent
+{
+    color:White;
+    font-family: Tahoma;
+    padding-left: 350px;
+    font-size:smaller;
+    width: 100%;
+    z-index:1;
+}
+
+.menuHolder
+{
+    position: absolute;
+    top: 25px;
+    width: auto;
+    margin: 100px;
+    height: 30px;
+}
+
+.menuItem
+{
+    font-family: Tahoma;
+    text-align:center;
+    height: 25px;
+    float: left;
+    width:auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    background-image: url("../Images/fade3.png");
+    color:White;
+}
+
+.menuItem:hover
+{
+    background-image: url("../Images/fade4.png");
+}
+
+
+.menuItemSelected
+{
+    font-family: Tahoma;
+    text-align:center;
+    height: 25px;
+    float: left;
+    width:auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    background-image: url("../Images/fade4.png");
+    color: #5f3215;
+    font-weight: bold;
+}
+
+.masterContent
+{
+    position: absolute;
+    top: 55px;
+    width: 770px;
+    margin: 100px;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    background-image: url("../Images/fade4.png");
+}
+
+
+.contentTitle
+{
+    font-family: Tahoma;
+    color: #5f3215;
+    font-size:larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contentSection
+{
+    font-family: Tahoma;
+    border: 0px solid black;
+    color: #5f3215;
+}
+
+a 
+{
+    color:#5f3215;
+    text-decoration:none;
+}
+a:link 
+{
+    color:white;
+    text-decoration:none:
+ }
+a:visited 
+{
+    color:white;
+    text-decoration:none:
+ }
+a:hover 
+{
+    color:white;
+    text-decoration:none:
+}
+
+.smallImage
+{
+    width: 104px;
+    height: 104px;
+    display: inline;
+    float:left;
+    position: relative;
+    border: 1px solid #5f3215;
+}
+
+.smallImageDetails
+{
+    padding-left: 10px;    
+    display: table-cell;
+    font-family: Tahoma;
+    vertical-align:middle;
+    height: 104px;
+    color: #5f3215;
+}
+
+.smallImageSection
+{
+    margin: 5px;
+    width: 735px;
+    padding: 10px 10px 10px 10px ;
+    background-image: url("../Images/fade4.png");   
+    border: 1px solid black;
+    color: #5f3215;
+    height: 110px;
+}
+
+ .row
+ {
+     display: table-row;
+     padding: 10px 10px 10px 10px;
+     vertical-align:middle;
+     border: 0px solid black;
+ }
+ 
+ 
+ .cellField
+{
+    width: 200px; 
+    text-align: right; 
+    vertical-align: top;
+    font-weight: bold;
+}
+
+ .cellInputField
+{
+    width: 200px; 
+    text-align: left; 
+    vertical-align: top;
+    font-weight: bold;
+}
+ 
+input
+{
+    color: #5f3215;
+    border: 1px solid #5f3215;
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+textarea
+{
+    color: #5f3215;
+    border: 1px solid #5f3215;
+    font-family: Tahoma;
+    font-weight: bold;
+} 
+
+ .contactDetail
+ {
+     padding-top: 0px;
+     border: 0px solid black;
+     width: 500px;
+     height: auto;
+     padding-right: 2px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+ }
+ 
+ .contentSubTitle
+{
+    width: 100%;
+    position:relative;
+    color: black;
+    text-align: center;
+    font-size: medium;
+    letter-spacing: 2px;
+    font-weight:900;
+    color: #5f3215;
+    padding-bottom: 10px;
+}
+
+.languageSection
+{
+    position: relative;
+    display:inline-block;
+    border: 0px solid yellow;
+    width: 400px;
+    height: 100px;
+    margin: auto auto auto auto;
+}
+
+.flagandlanguage
+{
+    margin-top: 26px;
+    margin-left: 20px;
+    float:left;
+    border: 0px solid orange;
+    padding: 10px 10px 10px 50px;
+    height: auto;
+    float: left;
+    width: auto;
+}
+
+.flag
+{
+    float:left;
+    width: 36px;
+    height: 22px;
+}
+
+.language
+{
+    padding-left: 10px;
+    float:left;
+    font-family: Tahoma;
+    color: White;
+}

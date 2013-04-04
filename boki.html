@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Norys - Bok kanapy</title>
+    <link rel="Stylesheet" href="Styles/common.css" />
+    <script type="text/javascript" language="javascript" src="Scripts/LanguagePopulator.js"></script>
+    <script type="text/javascript" language="javascript" src="Scripts/jquery-1.4.2.js"></script>
+    <script type="text/javascript" language="javascript" src="Scripts/jquery.blockUI.js"></script>
+   <script type="text/javascript" src="Scripts/prototype.js"></script>
+     <script type="text/javascript" src="Scripts/scriptaculous.js?load=effects,builder"></script>
+    <script type="text/javascript" src="Scripts/lightbox.js"></script>
+    <link rel="stylesheet" href="Styles/lightbox.css" type="text/css" media="screen" />
+</head>
+<body onload="checkLanguage();">
+    <div id="divLangSel" class="languageSection" style="display: none;">
+        <div class="flagandlanguage">
+            <div class="flag">
+                <img src="Images\thumbs\gb.png" alt="" />
+            </div>
+            <div class="language">
+                <a href="index.html?lang=ENG">English</a>
+            </div>
+        </div>
+        <div class="flagandlanguage">
+            <div class="flag">
+                <img src="Images\thumbs\pl.png" alt="" />
+            </div>
+            <div class="language">
+                <a href="index.html?lang=POL">Polski</a>
+            </div>
+        </div>
+    </div>
+    <div class="mainContainer">
+        <div class="header">
+            <div class="logo">
+            </div>
+            <div id="divHeaderContent" class="headerContent">
+            </div>
+        </div>
+        <div class="menuHolder">
+            <div class="menuItem">
+                <a id="aAboutUs" href="index.html"></a>
+            </div>
+            <div class="menuItemSelected">
+                <a id="aOffer" href="oferta.html"></a>
+            </div>
+            <div class="menuItem">
+                <a id="aContact" href="kontakt.html"></a>
+            </div>
+        </div>
+        <div class="masterContent">
+            <div id="divPageTitle" class="contentTitle">
+            </div>
+            <div class="contentSection">
+                <div class="smallImageSection">
+                    <div class="smallImage">
+                        <img src="Images/thumbs/bok1.jpg" alt="" />
+                    </div>
+                    <div id="divOptionOne" class="smallImageDetails">
+                    </div>
+                </div>
+                <div class="smallImageSection">
+                    <div class="smallImage">
+                        <a href="Images/logo2.jpg" rel="lightbox"><img src="Images/thumbs/bok2.jpg" alt="" /></a>
+                        <!--<a href="images/image-1.jpg" rel="lightbox" title="my caption">image #1</a>-->
+                    </div>
+                    <div id="divOptionTwo" class="smallImageDetails">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
